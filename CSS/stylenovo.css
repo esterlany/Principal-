@@ -2,8 +2,15 @@ body{
     background-color: rgb(245, 244, 231);
 }
 
+main{
+    display: flex;
+    padding-top: 80px;
+}
+
 .header{
     padding: 20px;
+    position: fixed;
+    width: 100%;
 }
 
 .links{
@@ -73,14 +80,32 @@ footer {
     text-align: justify;
     columns: 3;
     font-weight: bold;
-    margin:50px;
+    margin:10px;
 }
 
-.secao-1{
-    width: 100%;
-    margin-left: 0;
+.secao-1 h1{
+    font-weight: bold;
+   }
+
+.secao-1 h2{
+    font-weight: lighter;
+    color: #e605d3;
     margin-top: 10px;
-    padding: 5px;
+}
+
+h2{
+   margin-top: 20px;
+}
+
+.secao-2 h2{
+    font-weight: lighter;
+    color: #e605d3;
+    margin-top: 10px;
+}
+
+.linha-divisoria{
+  width: 0.5%;
+  background-color: red;
 }
 
 .secao-2{
@@ -102,15 +127,6 @@ footer {
     margin-top: 50px;
 }
 
-.secao-1 h1{
-    font-weight: bold;
-}
-
-.secao-1 h2{
-    font-weight: lighter;
-    color: #e605d3;
-}
-
 img{
     width: 400px;
     margin: 0 auto;
@@ -125,9 +141,7 @@ img{
     border-radius: 100%;
 }
 
-h2{
-    padding: 10px;
-}
+
 
 h1{
     text-align: center;
